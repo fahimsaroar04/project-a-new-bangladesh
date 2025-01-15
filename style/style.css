@@ -20,6 +20,7 @@ nav{
     border-radius: 8px;
     padding: 15px 30px;
     border: solid #006A50;
+    cursor: pointer;
     margin: 24px;
     font-weight: 600;
     font-size: 18px;
@@ -27,7 +28,7 @@ nav{
 
 }
 .hover-sign:hover {
-        background-color: hwb(120 96% 3%); /* Change color on hover */
+        background-color: hwb(120 96% 3%); 
         transform: scale(1.05);
 }
 /* HERO STYLE */
@@ -57,9 +58,140 @@ nav{
     background-color: #006A50;
     color: #FFFFFF;
     border-radius: 8px;
+    border: none;
+    cursor: pointer;
     padding:  17px 34px;
 }
+/* PILLAR STYLE */
+.pillars-container{
+    margin: 0px 160px 80px 160px;
+    gap: 32px;
+}
+.pillar-list{
+    display: flex;
+   justify-content: space-between;
+    height: 244px;
+}
+.pillar{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    border: 2px solid #0E0E0E26;
+    width: 20%;
 
+}
+/* VISION STYLE */
+.vision-container{
+    margin: 0px 160px 80px 160px;
+    gap: 32px;
+}
+.vision-paragraph{
+    color: #0E0E0EB2;
+    font-weight: 400;
+    width: 1480px;
+    height: 60px;
+    font-size: 18px;
+
+}
+.vision-items{
+    display: flex;
+    justify-content: space-between;
+    height: 375px;
+   
+    gap: 34px;
+    margin: 32px 0px;
+    
+}
+    
+/* VISION BOXES STYLE */
+.vision-box-paragraph{
+    color: #0E0E0EB2;
+    font-weight: 400;
+    font-size: 16px;
+   
+}
+.vision-box{
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-box1{
+    background-color: #5490F533;
+    
+}
+.vision-box2{
+    background-color: #C6E4D6;
+}
+.vision-box3{
+    background-color: #F7EBCF;
+    
+}
+
+/* button box style */
+.btn-box{
+    margin-top: 54px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    padding: 11px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 140px;
+    height: 46px;
+}
+.btn1{
+    background-color: #5490F5;
+}
+.button1:hover {
+    background-color: #165edc; /* Change color on hover */
+    transform: scale(1.05);
+}
+.btn2{
+    background-color: #09A15C;
+}
+.button2:hover {
+    background-color: #05663a; /* Change color on hover */
+    transform: scale(1.05);
+}
+.btn3{
+    background-color: #FFC239;
+}
+.button3:hover {
+    background-color: #b3810d; /* Change color on hover */
+    transform: scale(1.05);
+}
+
+/* Dr.Muhammed Yunus */
+.yunus-container{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 48px 24px;
+    
+
+}
+.yunus-contant{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+   
+}
+.speech{
+    color: #0E0E0ECC;
+    font-weight: 400;
+    font-size: 16px;
+    
+
+}
+.name{
+    color: #0E0E0ECC;
+    font-weight: 600;
+    font-size: 16px;
+}
+.yunus-identity{
+    font-size: 16px;
+    color: #0E0E0E99;
+    
+}
 /* shared style */
 
 .bold-text{
@@ -71,8 +203,20 @@ nav{
 }
 .font-40{
     font-size: 40px;
+    height: 48px;
 }
 .button:hover {
     background-color: #024105; /* Change color on hover */
     transform: scale(1.05);
 }
+.box-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0E0E0ECC;
+}
+.pillars-paragraph{
+    color: #0E0E0EB2;
+    font-weight: 400;
+}
+
+
